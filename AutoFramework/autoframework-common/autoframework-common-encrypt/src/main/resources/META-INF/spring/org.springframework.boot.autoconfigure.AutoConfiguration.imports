@@ -1,0 +1,2 @@
+com.autoframework.common.encrypt.config.EncryptorAutoConfiguration
+com.autoframework.common.encrypt.config.ApiDecryptAutoConfiguration

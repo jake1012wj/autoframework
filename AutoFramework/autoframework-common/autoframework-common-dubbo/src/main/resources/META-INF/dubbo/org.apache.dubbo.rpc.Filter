@@ -1,0 +1,1 @@
+dubboRequestFilter=com.autoframework.common.dubbo.filter.DubboRequestFilter

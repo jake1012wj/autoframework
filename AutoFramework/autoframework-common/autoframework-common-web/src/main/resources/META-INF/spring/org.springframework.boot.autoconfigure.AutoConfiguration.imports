@@ -1,0 +1,4 @@
+com.autoframework.common.web.config.FilterConfig
+com.autoframework.common.web.config.I18nConfig
+com.autoframework.common.web.config.UndertowConfig
+com.autoframework.common.web.config.ResourcesConfig

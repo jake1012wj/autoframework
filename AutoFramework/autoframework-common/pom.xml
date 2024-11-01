@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.autoframework</groupId>
+        <artifactId>autoframework-cloud-plus</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>autoframework-common-bom</module>
+        <module>autoframework-common-alibaba-bom</module>
+        <module>autoframework-common-log</module>
+        <module>autoframework-common-dict</module>
+        <module>autoframework-common-excel</module>
+        <module>autoframework-common-core</module>
+        <module>autoframework-common-redis</module>
+        <module>autoframework-common-doc</module>
+        <module>autoframework-common-security</module>
+        <module>autoframework-common-satoken</module>
+        <module>autoframework-common-web</module>
+        <module>autoframework-common-mybatis</module>
+        <module>autoframework-common-job</module>
+        <module>autoframework-common-dubbo</module>
+        <module>autoframework-common-seata</module>
+        <module>autoframework-common-loadbalancer</module>
+        <module>autoframework-common-oss</module>
+        <module>autoframework-common-ratelimiter</module>
+        <module>autoframework-common-idempotent</module>
+        <module>autoframework-common-mail</module>
+        <module>autoframework-common-sms</module>
+        <module>autoframework-common-logstash</module>
+        <module>autoframework-common-elasticsearch</module>
+        <module>autoframework-common-sentinel</module>
+        <module>autoframework-common-skylog</module>
+        <module>autoframework-common-prometheus</module>
+        <module>autoframework-common-translation</module>
+        <module>autoframework-common-sensitive</module>
+        <module>autoframework-common-json</module>
+        <module>autoframework-common-encrypt</module>
+        <module>autoframework-common-tenant</module>
+        <module>autoframework-common-websocket</module>
+        <module>autoframework-common-social</module>
+        <module>autoframework-common-nacos</module>
+        <module>autoframework-common-bus</module>
+        <module>autoframework-common-sse</module>
+    </modules>
+
+    <artifactId>autoframework-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        autoframework-common通用模块
+    </description>
+
+</project>

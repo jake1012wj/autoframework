@@ -1,0 +1,6 @@
+com.autoframework.common.translation.config.TranslationConfig
+com.autoframework.common.translation.core.impl.DeptNameTranslationImpl
+com.autoframework.common.translation.core.impl.DictTypeTranslationImpl
+com.autoframework.common.translation.core.impl.OssUrlTranslationImpl
+com.autoframework.common.translation.core.impl.UserNameTranslationImpl
+com.autoframework.common.translation.core.impl.NicknameTranslationImpl

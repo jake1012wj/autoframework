@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.autoframework</groupId>
+        <artifactId>autoframework-modules</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>autoframework-job</artifactId>
+
+    <description>
+        autoframework-job 任务调度模块
+    </description>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-nacos</artifactId>
+        </dependency>
+
+        <!-- autoframework Common Log -->
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-log</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-dict</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-dubbo</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-job</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-tenant</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.autoframework</groupId>
+                    <artifactId>autoframework-common-mybatis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-security</artifactId>
+        </dependency>
+
+        <!-- autoframework Api System -->
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-api-system</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

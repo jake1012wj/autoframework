@@ -1,0 +1,43 @@
+2024-11-01 13:24:28 [main] INFO  io.seata.config.ConfigurationFactory - load Configuration from :Spring Configuration
+2024-11-01 13:24:28 [main] INFO  i.s.config.nacos.NacosConfiguration - Nacos check auth with userName/password.
+2024-11-01 13:24:29 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2024-11-01 13:24:29 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2024-11-01 13:24:29 [main] INFO  c.a.n.c.a.AbstractAbilityControlManager - Ready to get current node abilities...
+2024-11-01 13:24:29 [main] INFO  c.a.n.c.a.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2024-11-01 13:24:29 [main] INFO  c.a.n.c.a.AbstractAbilityControlManager - Initialize current abilities finish...
+2024-11-01 13:24:29 [main] INFO  c.a.n.c.a.d.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2024-11-01 13:24:30 [main] INFO  i.s.server.SeataServerApplication - Starting SeataServerApplication using Java 17.0.12 on dinm5CG4221PLD with PID 9348 (C:\Users\z004zdsv\Desktop\AutoFramework\AutoFramework\autoframework-visual\target\classes started by z004zdsv in C:\Users\z004zdsv\Desktop\AutoFramework)
+2024-11-01 13:24:30 [main] INFO  i.s.server.SeataServerApplication - The following 1 profile is active: "dev"
+2024-11-01 13:24:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8848 (http)
+2024-11-01 13:24:31 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.38]
+2024-11-01 13:24:31 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2024-11-01 13:24:31 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-11-01 13:24:31 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-11-01 13:24:32 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2024-11-01 13:24:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8848"]
+2024-11-01 13:24:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-01 13:24:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-01 13:24:32 [main] INFO  o.a.c.c.C.[.[localhost].[/nacos] - Initializing Spring embedded WebApplicationContext
+2024-11-01 13:24:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2298 ms
+2024-11-01 13:24:33 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-11-01 13:24:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/']
+2024-11-01 13:24:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/**/*.css']
+2024-11-01 13:24:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/**/*.js']
+2024-11-01 13:24:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/**/*.html']
+2024-11-01 13:24:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/**/*.map']
+2024-11-01 13:24:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/**/*.svg']
+2024-11-01 13:24:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/**/*.png']
+2024-11-01 13:24:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/**/*.jpeg']
+2024-11-01 13:24:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/**/*.ico']
+2024-11-01 13:24:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/api/v1/auth/login']
+2024-11-01 13:24:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b756a62, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@394b9e22, org.springframework.security.web.context.SecurityContextPersistenceFilter@56820446, org.springframework.security.web.header.HeaderWriterFilter@1ac2829e, org.springframework.security.web.authentication.logout.LogoutFilter@5dff108c, io.seata.console.filter.JwtAuthenticationTokenFilter@6e0f259e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b82f62a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36c45149, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fe9adfb, org.springframework.security.web.session.SessionManagementFilter@44e0c3d, org.springframework.security.web.access.ExceptionTranslationFilter@4bcf08ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24ee6faa]
+2024-11-01 13:24:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8848"]
+2024-11-01 13:24:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8848"]
+2024-11-01 13:24:33 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-11-01 13:24:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8848"]
+2024-11-01 13:24:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8848"]
+2024-11-01 13:24:33 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-11-01 13:24:47 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=application-common.yml, group=DEFAULT_GROUP] success
+2024-11-01 13:25:48 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=application-common.yml, group=DEFAULT_GROUP] success

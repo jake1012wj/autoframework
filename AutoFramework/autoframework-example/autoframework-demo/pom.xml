@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.autoframework</groupId>
+        <artifactId>autoframework-example</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>autoframework-demo</artifactId>
+
+    <description>
+        autoframework-demo 演示模块
+    </description>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-nacos</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-sentinel</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-log</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-doc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-dubbo</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-idempotent</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-mail</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-sms</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-encrypt</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-tenant</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-elasticsearch</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.autoframework</groupId>
+            <artifactId>autoframework-common-sensitive</artifactId>
+        </dependency>
+
+        <!-- 测试消息总线使用 搭配 TestBusController -->
+<!--        <dependency>-->
+<!--            <groupId>com.autoframework</groupId>-->
+<!--            <artifactId>autoframework-api-workflow</artifactId>-->
+<!--        </dependency>-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

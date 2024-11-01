@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for autoframework-nacos" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/springframework/boot/spring-boot-configuration-processor/2.7.18/spring-boot-configuration-processor-2.7.18.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus-processor/1.4.5/mapstruct-plus-processor-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus/1.4.5/mapstruct-plus-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus-object-convert/1.4.5/mapstruct-plus-object-convert-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/tools/gem/gem-api/1.0.0.Alpha3/gem-api-1.0.0.Alpha3.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="autoframework-nacos" />
+      </profile>
+      <profile name="Annotation profile for autoframework-seata-server" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/springframework/boot/spring-boot-configuration-processor/2.7.18/spring-boot-configuration-processor-2.7.18.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus-processor/1.4.5/mapstruct-plus-processor-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus/1.4.5/mapstruct-plus-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus-object-convert/1.4.5/mapstruct-plus-object-convert-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/tools/gem/gem-api/1.0.0.Alpha3/gem-api-1.0.0.Alpha3.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="autoframework-seata-server" />
+      </profile>
+      <profile name="Annotation profile for autoframework-sentinel-dashboard" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/springframework/boot/spring-boot-configuration-processor/2.7.18/spring-boot-configuration-processor-2.7.18.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus-processor/1.4.5/mapstruct-plus-processor-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus/1.4.5/mapstruct-plus-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus-object-convert/1.4.5/mapstruct-plus-object-convert-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/tools/gem/gem-api/1.0.0.Alpha3/gem-api-1.0.0.Alpha3.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="autoframework-sentinel-dashboard" />
+      </profile>
+      <profile name="Annotation profile for autoframework-Cloud-Plus" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.11/spring-boot-configuration-processor-3.2.11.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus-processor/1.4.5/mapstruct-plus-processor-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus/1.4.5/mapstruct-plus-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/io/github/linpeilie/mapstruct-plus-object-convert/1.4.5/mapstruct-plus-object-convert-1.4.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/mapstruct/tools/gem/gem-api/1.0.0.Alpha3/gem-api-1.0.0.Alpha3.jar" />
+          <entry name="$PROJECT_DIR$/../../../../dev/mavenrepo/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="autoframework-common-ratelimiter" />
+        <module name="autoframework-resource" />
+        <module name="autoframework-common-loadbalancer" />
+        <module name="autoframework-workflow" />
+        <module name="autoframework-common-sensitive" />
+        <module name="autoframework-job" />
+        <module name="autoframework-common-nacos" />
+        <module name="autoframework-common-seata" />
+        <module name="autoframework-gateway" />
+        <module name="autoframework-common-security" />
+        <module name="autoframework-api-workflow" />
+        <module name="autoframework-common-dubbo" />
+        <module name="autoframework-common-excel" />
+        <module name="autoframework-common-json" />
+        <module name="autoframework-system" />
+        <module name="autoframework-common-bus" />
+        <module name="autoframework-common-social" />
+        <module name="autoframework-common-job" />
+        <module name="autoframework-common-doc" />
+        <module name="autoframework-common-mail" />
+        <module name="autoframework-common-redis" />
+        <module name="autoframework-common-sentinel" />
+        <module name="autoframework-common-prometheus" />
+        <module name="autoframework-snailjob-server" />
+        <module name="autoframework-common-dict" />
+        <module name="autoframework-common-logstash" />
+        <module name="autoframework-common-mybatis" />
+        <module name="autoframework-monitor" />
+        <module name="autoframework-common-oss" />
+        <module name="autoframework-common-translation" />
+        <module name="autoframework-common-websocket" />
+        <module name="autoframework-common-encrypt" />
+        <module name="autoframework-common-log" />
+        <module name="autoframework-common-sse" />
+        <module name="autoframework-common-elasticsearch" />
+        <module name="autoframework-gen" />
+        <module name="autoframework-common-skylog" />
+        <module name="autoframework-api-resource" />
+        <module name="autoframework-api-system" />
+        <module name="autoframework-common-satoken" />
+        <module name="autoframework-common-sms" />
+        <module name="autoframework-auth" />
+        <module name="autoframework-common-idempotent" />
+        <module name="autoframework-common-web" />
+        <module name="autoframework-demo" />
+        <module name="autoframework-common-core" />
+        <module name="autoframework-common-tenant" />
+        <module name="autoframework-test-mq" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="autoframework-api" options="-parameters" />
+      <module name="autoframework-api-resource" options="-parameters" />
+      <module name="autoframework-api-system" options="-parameters" />
+      <module name="autoframework-api-workflow" options="-parameters" />
+      <module name="autoframework-auth" options="-parameters" />
+      <module name="autoframework-common" options="-parameters" />
+      <module name="autoframework-common-bus" options="-parameters" />
+      <module name="autoframework-common-core" options="-parameters" />
+      <module name="autoframework-common-dict" options="-parameters" />
+      <module name="autoframework-common-doc" options="-parameters" />
+      <module name="autoframework-common-dubbo" options="-parameters" />
+      <module name="autoframework-common-elasticsearch" options="-parameters" />
+      <module name="autoframework-common-encrypt" options="-parameters" />
+      <module name="autoframework-common-excel" options="-parameters" />
+      <module name="autoframework-common-idempotent" options="-parameters" />
+      <module name="autoframework-common-job" options="-parameters" />
+      <module name="autoframework-common-json" options="-parameters" />
+      <module name="autoframework-common-loadbalancer" options="-parameters" />
+      <module name="autoframework-common-log" options="-parameters" />
+      <module name="autoframework-common-logstash" options="-parameters" />
+      <module name="autoframework-common-mail" options="-parameters" />
+      <module name="autoframework-common-mybatis" options="-parameters" />
+      <module name="autoframework-common-nacos" options="-parameters" />
+      <module name="autoframework-common-oss" options="-parameters" />
+      <module name="autoframework-common-prometheus" options="-parameters" />
+      <module name="autoframework-common-ratelimiter" options="-parameters" />
+      <module name="autoframework-common-redis" options="-parameters" />
+      <module name="autoframework-common-satoken" options="-parameters" />
+      <module name="autoframework-common-seata" options="-parameters" />
+      <module name="autoframework-common-security" options="-parameters" />
+      <module name="autoframework-common-sensitive" options="-parameters" />
+      <module name="autoframework-common-sentinel" options="-parameters" />
+      <module name="autoframework-common-skylog" options="-parameters" />
+      <module name="autoframework-common-sms" options="-parameters" />
+      <module name="autoframework-common-social" options="-parameters" />
+      <module name="autoframework-common-sse" options="-parameters" />
+      <module name="autoframework-common-tenant" options="-parameters" />
+      <module name="autoframework-common-translation" options="-parameters" />
+      <module name="autoframework-common-web" options="-parameters" />
+      <module name="autoframework-common-websocket" options="-parameters" />
+      <module name="autoframework-demo" options="-parameters" />
+      <module name="autoframework-example" options="-parameters" />
+      <module name="autoframework-gateway" options="-parameters" />
+      <module name="autoframework-gen" options="-parameters" />
+      <module name="autoframework-job" options="-parameters" />
+      <module name="autoframework-modules" options="-parameters" />
+      <module name="autoframework-monitor" options="-parameters" />
+      <module name="autoframework-nacos" options="-parameters" />
+      <module name="autoframework-resource" options="-parameters" />
+      <module name="autoframework-seata-server" options="-parameters" />
+      <module name="autoframework-sentinel-dashboard" options="-parameters" />
+      <module name="autoframework-snailjob-server" options="-parameters" />
+      <module name="autoframework-system" options="-parameters" />
+      <module name="autoframework-test-mq" options="-parameters" />
+      <module name="autoframework-visual" options="-parameters" />
+      <module name="autoframework-workflow" options="-parameters" />
+      <module name="ruoyi" options="-parameters" />
+    </option>
+  </component>
+</project>

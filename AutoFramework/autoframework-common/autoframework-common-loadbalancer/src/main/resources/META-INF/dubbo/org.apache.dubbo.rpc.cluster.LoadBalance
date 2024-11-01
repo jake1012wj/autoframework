@@ -1,0 +1,1 @@
+customDubboLoadBalancer=com.autoframework.common.loadbalance.core.CustomDubboLoadBalancer
