@@ -266,6 +266,9 @@ seata:
   application-id: ${spring.application.name}
   # Seata 事务组编号，用于 TC 集群名
   tx-service-group: ${spring.application.name}-group
+  service:
+    vgroupMapping: # 设置 vgroup 映射
+      default_tx_group: default
 
 # 多租户配置
 tenant:

@@ -118,3 +118,45 @@ ERROR in ch.qos.logback.classic.joran.action.LoggerContextListenerAction - Could
 		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 		at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:55)
 		... 35 common frames omitted
+2024-11-01 16:12:51 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8848 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8848 or configure this application to listen on another port.
+
+2024-11-01 16:29:56 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8848 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8848 or configure this application to listen on another port.
+
+2024-11-01 16:45:07 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8848 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8848 or configure this application to listen on another port.
+
