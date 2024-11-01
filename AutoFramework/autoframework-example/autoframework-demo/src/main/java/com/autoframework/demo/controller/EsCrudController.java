@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import com.autoframework.common.core.domain.R;
 import com.autoframework.demo.domain.Document;
 import com.autoframework.demo.esmapper.DocumentMapper;
-import com.autoframework.easyes.core.conditions.select.LambdaEsQueryWrapper;
+import org.dromara.easyes.core.conditions.select.LambdaEsQueryWrapper;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.web.bind.annotation.*;
 

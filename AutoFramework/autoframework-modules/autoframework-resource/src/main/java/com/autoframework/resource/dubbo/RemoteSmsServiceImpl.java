@@ -5,9 +5,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.DubboService;
 import com.autoframework.resource.api.RemoteSmsService;
 import com.autoframework.resource.api.domain.RemoteSms;
-import com.autoframework.sms4j.api.SmsBlend;
-import com.autoframework.sms4j.api.entity.SmsResponse;
-import com.autoframework.sms4j.core.factory.SmsFactory;
+import org.dromara.sms4j.api.SmsBlend;
+import org.dromara.sms4j.api.entity.SmsResponse;
+import org.dromara.sms4j.core.factory.SmsFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.LinkedHashMap;

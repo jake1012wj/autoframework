@@ -2,7 +2,7 @@ package com.autoframework.common.sms.core.dao;
 
 import com.autoframework.common.core.constant.GlobalConstants;
 import com.autoframework.common.redis.utils.RedisUtils;
-import com.autoframework.sms4j.api.dao.SmsDao;
+import org.dromara.sms4j.api.dao.SmsDao;
 
 import java.time.Duration;
 
